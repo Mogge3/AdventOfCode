@@ -2,7 +2,7 @@ import Data.List
 
 main :: IO ()
 main = do
-    text <- readFile ""
+    text <- readFile "../Input/2.txt"
     let reports = fmap readLine $ lines text
     print $ part1 reports
     print $ part2 reports

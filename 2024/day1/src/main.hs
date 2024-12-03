@@ -3,7 +3,7 @@ import Data.List
 
 main :: IO ()
 main = do
-    (a, b) <- readAndSplitColumns "input.txt"
+    (a, b) <- readAndSplitColumns "../Input/1.txt"
 
     let sortedA = sort a
     let sortedB = sort b
