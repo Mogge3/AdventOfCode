@@ -1,5 +1,5 @@
 [Ii]nput/
-/[Dd]ist/
-/.vscode/
+[Dd]ist/
+.vscode/
 
 *.exe
